@@ -1,0 +1,225 @@
+{
+  "_note": "Data source for the portfolio site (index.html reads this file). Schools are in chronological order. Image paths are relative to schools/. Empty 'skills' and 'projects' lists keep those sections hidden; add items to show them.",
+  "schools": [
+    {
+      "id": "greenacres-junior-academy",
+      "name": "GreenAcres Junior Academy Primary School",
+      "level": "Primary",
+      "years": "2010-2013",
+      "certificate": null,
+      "badge": "01-greenacres-junior-academy/badge.jpg",
+      "motto": "Inspire To Aspire",
+      "website": "https://www.greenacreseducationtrust.co.uk/",
+      "photos": [
+        {
+          "src": "01-greenacres-junior-academy/photos/event-1.jpg",
+          "alt": "Staff and pupils gathered in a covered courtyard at the school's 30 years celebration"
+        },
+        {
+          "src": "01-greenacres-junior-academy/photos/event-2.jpg",
+          "alt": "A teacher walking past a line of pupils under green, yellow and red bunting"
+        },
+        {
+          "src": "01-greenacres-junior-academy/photos/building.jpg",
+          "alt": "Green and white school building with a paved path and trimmed hedges"
+        },
+        {
+          "src": "01-greenacres-junior-academy/photos/garden.jpg",
+          "alt": "School courtyard garden in front of green-painted classroom blocks"
+        }
+      ],
+      "accent": "#16702c",
+      "short_name": "GreenAcres Junior",
+      "level_label": "Primary school"
+    },
+    {
+      "id": "bombo-trinity-primary",
+      "name": "Bombo Trinity Day and Boarding Primary School",
+      "level": "Primary",
+      "years": "2014-2015",
+      "certificate": "Ugandan Primary Leaving Examination",
+      "badge": "02-bombo-trinity-primary/badge.jpg",
+      "website": null,
+      "photos": [],
+      "motto": "Seek Knowledge & Serve",
+      "accent": "#b52a24",
+      "short_name": "Bombo Trinity",
+      "level_label": "Primary school"
+    },
+    {
+      "id": "bombo-senior-secondary-school",
+      "name": "Bombo Senior Secondary School",
+      "level": "Secondary",
+      "years": "2016-2017",
+      "certificate": null,
+      "badge": "03-bombo-senior-secondary-school/badge.jpg",
+      "motto": "Determination Leads To Success",
+      "website": "bombosss.ac.ug",
+      "photos": [
+        {
+          "src": "03-bombo-senior-secondary-school/photos/campus.jpg",
+          "alt": "Paved walkway with black and white kerbs between garden beds, school buildings behind"
+        }
+      ],
+      "grades": "Senior 1 and Senior 2",
+      "accent": "#1c2f6b",
+      "short_name": "Bombo Senior",
+      "level_label": "Secondary school"
+    },
+    {
+      "id": "arua-town-college",
+      "name": "Arua Town College Secondary School",
+      "level": "Secondary",
+      "years": "2018-2019",
+      "certificate": "Ugandan Certificate of Education",
+      "badge": null,
+      "website": null,
+      "photos": [
+        {
+          "src": "04-arua-town-college/photos/group-photo.jpg",
+          "alt": "Students and staff in turquoise shirts and white headscarves outside a blue building"
+        }
+      ],
+      "grades": "Senior 3 and Senior 4",
+      "accent": "#0e7490",
+      "short_name": "Arua Town College",
+      "level_label": "Secondary school",
+      "initials": "ATC"
+    },
+    {
+      "id": "golden-high-school",
+      "name": "Golden High Secondary School",
+      "level": "Secondary",
+      "years": "2022",
+      "certificate": "South Sudan Certificate of Secondary Education",
+      "badge": "05-golden-high-school/badge.jpg",
+      "website": null,
+      "photos": [],
+      "motto": "Knowledge Conquers All",
+      "accent": "#1f3fbf",
+      "short_name": "Golden High",
+      "level_label": "Secondary school"
+    },
+    {
+      "id": "university-of-juba",
+      "name": "University of Juba",
+      "level": "Tertiary",
+      "years": "2024-expected 2028",
+      "certificate": "BSc Computer Science/Cybersecurity (in progress)",
+      "badge": "06-university-of-juba/badge.png",
+      "website": "https://uoj.edu.ss/",
+      "photos": [
+        {
+          "src": "06-university-of-juba/photos/gate.jpg",
+          "alt": "The University of Juba main gate with a large tree behind it"
+        },
+        {
+          "src": "06-university-of-juba/photos/stone-building.jpg",
+          "alt": "Stone-clad University of Juba building behind a car park and trees"
+        },
+        {
+          "src": "06-university-of-juba/photos/admin-building.jpg",
+          "alt": "Two-storey University of Juba building with flags and the university crest"
+        },
+        {
+          "src": "06-university-of-juba/photos/graduate-statue.jpg",
+          "alt": "Statue of a graduate in a blue gown holding up the university crest, clock tower behind"
+        }
+      ],
+      "motto": "Relevance & Excellence",
+      "accent": "#1a5d9c",
+      "short_name": "University of Juba",
+      "level_label": "University"
+    }
+  ],
+  "owner": {
+    "name": "Samuel Yokwe Keri Wilson",
+    "short_name": "Samuel Yokwe",
+    "title": "Computer Science and Cybersecurity student at the University of Juba",
+    "location": "Juba, South Sudan",
+    "email": "ambassadorsamuelyokwe555@gmail.com",
+    "about": [
+      "I'm a Computer Science and Cybersecurity student at the University of Juba in Juba, South Sudan. I started the degree in 2024 and expect to finish in 2028.",
+      "I've also worked as a branch manager at Shamrock Casinos Co. Ltd (2023 to 2024). I've studied at six schools in total, starting in 2010, and all of them are listed below.",
+      "I speak English, Kakwa and simple Arabic. I enjoy working in a team, reading novels, writing articles and learning new skills."
+    ],
+    "phone": "+211 926 215 577",
+    "phone_link": "+211926215577",
+    "details": [
+      {
+        "label": "Date of birth",
+        "value": "25 November 2001"
+      },
+      {
+        "label": "Marital status",
+        "value": "Single"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "role": "Branch Manager",
+      "organization": "Shamrock Casinos Co. Ltd",
+      "years": "2023–2024"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Excellent, spoken and written"
+    },
+    {
+      "name": "Kakwa",
+      "level": "Native speaker"
+    },
+    {
+      "name": "Simple Arabic",
+      "level": "Native speaker"
+    }
+  ],
+  "interests": [
+    "Teamwork",
+    "Reading novels",
+    "Writing articles",
+    "Learning new skills"
+  ],
+  "skills": [
+    "Frontend development",
+    "AI prompt engineering",
+    "Research and analysis",
+    "Product design and management",
+    "Basic cybersecurity"
+  ],
+  "projects": [
+    {
+      "name": "Guardian",
+      "year": "Project lead",
+      "description": "An AI project I led from the start. The code is on GitHub.",
+      "url": ""
+    },
+    {
+      "name": "KuluPay",
+      "year": "In progress",
+      "description": "Currently in development.",
+      "url": ""
+    },
+    {
+      "name": "Marhaba Bookings",
+      "year": "In progress",
+      "description": "Currently in development.",
+      "url": ""
+    },
+    {
+      "name": "Adverse",
+      "year": "In progress",
+      "description": "Currently in development.",
+      "url": ""
+    },
+    {
+      "name": "Creators' Hub",
+      "year": "In progress",
+      "description": "Currently in development.",
+      "url": ""
+    }
+  ]
+}
