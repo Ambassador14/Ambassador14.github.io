@@ -14,13 +14,13 @@
   <header class="hero">
     <div class="hero__inner">
       <nav class="topnav" aria-label="Sections">
+        <a href="#contact">Contact</a>
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
         <a href="#projects" id="nav-projects" hidden>Projects</a>
         <a href="#skills" id="nav-skills" hidden>Skills</a>
         <a href="#education">Education</a>
         <a href="#languages">Languages</a>
-        <a href="#contact">Contact</a>
       </nav>
       <div class="hero__grid">
         <div class="hero__text">
@@ -39,6 +39,18 @@
 
   <main>
     <p class="status" id="status">Loading…</p>
+
+    <section class="block block--contact" id="contact" hidden>
+      <div class="block__inner">
+        <h2 class="block__title">Contact and personal details</h2>
+        <div class="block__body">
+          <p id="contact-location"></p>
+          <a class="contact__mail" id="contact-mail" href="#"></a>
+          <a class="contact__phone" id="contact-phone" href="#" hidden></a>
+          <dl class="details" id="contact-details" hidden></dl>
+        </div>
+      </div>
+    </section>
 
     <section class="block" id="about" hidden>
       <div class="block__inner">
@@ -94,17 +106,6 @@
       </div>
     </section>
 
-    <section class="block block--contact" id="contact" hidden>
-      <div class="block__inner">
-        <h2 class="block__title">Contact and personal details</h2>
-        <div class="block__body">
-          <p id="contact-location"></p>
-          <a class="contact__mail" id="contact-mail" href="#"></a>
-          <a class="contact__phone" id="contact-phone" href="#" hidden></a>
-          <dl class="details" id="contact-details" hidden></dl>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="footer">
