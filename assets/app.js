@@ -168,6 +168,12 @@
     document.getElementById("title").textContent = owner.title || "";
     document.getElementById("footer-name").textContent = [owner.name, owner.location].filter(Boolean).join(", ");
 
+    if (owner.photo) {
+      document.getElementById("hero-photo-img").src = owner.photo;
+      document.getElementById("hero-photo-img").alt = owner.name || "";
+      document.getElementById("hero-photo").hidden = false;
+    }
+
     if (owner.about && owner.about.length) {
       var about = document.getElementById("about-body");
       owner.about.forEach(function (text) { about.appendChild(el("p", { text: text })); });
