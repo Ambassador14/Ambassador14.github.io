@@ -454,17 +454,30 @@ a { color: inherit; }
 .chips { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 0; padding: 0; list-style: none; }
 .chips li { padding: 0.35rem 0.9rem; background: var(--plate); border: 1px solid var(--line); border-radius: 999px; font-family: var(--display); font-weight: 500; font-size: 1rem; }
 
-.block--contact { background: var(--ink); color: #fff; }
+.block--contact {
+  background: #f2b705;
+  color: var(--ink);
+  padding: 2rem 1.5rem;
+}
 
-.block--contact .block__body p { margin: 0 0 1rem; }
+.block--contact .block__inner {
+  grid-template-columns: minmax(140px, 1fr) 2fr;
+  gap: 1rem 2rem;
+}
+
+.block--contact .block__title {
+  font-size: clamp(1.3rem, 2.6vw, 1.7rem);
+}
+
+.block--contact .block__body p { margin: 0 0 0.5rem; font-size: 0.95rem; }
 
 .contact__mail {
   font-family: var(--display);
   font-weight: 800;
-  font-size: clamp(1.2rem, 3.2vw, 2rem);
+  font-size: clamp(1rem, 2.2vw, 1.3rem);
   letter-spacing: -0.02em;
   overflow-wrap: anywhere;
-  text-underline-offset: 6px;
+  text-underline-offset: 4px;
 }
 
 @media (max-width: 720px) {
@@ -478,21 +491,22 @@ a { color: inherit; }
 .contact__mail, .contact__phone { display: block; }
 
 .contact__phone {
-  margin-top: 0.5rem;
+  margin-top: 0.25rem;
   font-family: var(--display);
   font-weight: 800;
-  font-size: clamp(1.2rem, 3.2vw, 2rem);
+  font-size: clamp(1rem, 2.2vw, 1.3rem);
   letter-spacing: -0.02em;
-  text-underline-offset: 6px;
+  text-underline-offset: 4px;
 }
 
 .details {
   display: grid;
   grid-template-columns: max-content 1fr;
-  gap: 0.4rem 1.5rem;
-  margin: 2rem 0 0;
-  padding-top: 1.5rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  gap: 0.3rem 1.5rem;
+  margin: 1rem 0 0;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(20, 32, 43, 0.25);
+  font-size: 0.9rem;
 }
 
 .details dt { font-family: var(--display); font-weight: 800; }
